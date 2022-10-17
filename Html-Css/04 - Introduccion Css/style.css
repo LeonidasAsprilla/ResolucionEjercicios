@@ -1,6 +1,11 @@
+/*  solo debe haber un único id por documento html, 
+    por eso preferí usar clases para cada elemento 
+    de las listas.
+*/
 .elemento-1{
   color: red;
 }
-ul .elemento-1{
+/* corrección encadenamiento de selectores */
+ul li.elemento-1{
   font-size: 2rem;
 }
